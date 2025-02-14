@@ -45,7 +45,7 @@ ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left'});
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right'});
 
 const typed = new Typed('.multiple-text', {
-	strings: ['Frontend Developer', 'Web Designer', 'Youtuber'],
+	strings: ['Assistant Informatique', 'Technicien réseaux', 'Alternant'],
 	typeSpeed: 70,
 	backSpeed: 70,
 	backDelay: 1000,
