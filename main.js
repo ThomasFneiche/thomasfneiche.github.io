@@ -34,7 +34,7 @@ window.onscroll = () => {
 
 ScrollReveal({
 	distance: '80px',
-	duration: 3000,
+	duration: 2000,
 	delay: 200,
  });
 
