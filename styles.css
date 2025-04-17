@@ -501,3 +501,95 @@ span {
 		width: 100%;
 	}
 }
+
+/* Section spécifique à la veille technologique */
+.veille-cloud {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: var(--snd-bg-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.veille-cloud .heading {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+
+.veille-cloud .veille-item {
+    background-color: var(--bg-color);
+    padding: 20px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+}
+
+.veille-cloud .veille-item h3 {
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.veille-cloud .veille-item p {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.veille-cloud .veille-item strong {
+    color: var(--main-color);
+}
+
+.veille-cloud .veille-item .emoji {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/* Pour les icônes dans les titres (emoji) */
+.veille-cloud .veille-item h3:before {
+    content: attr(data-icon);
+    margin-right: 10px;
+}
+
+/* Mettre en valeur les sections spécifiques */
+.veille-cloud .veille-item:nth-child(odd) {
+    background-color: var(--snd-bg-color);
+    color: var(--text-color);
+}
+
+.veille-cloud .veille-item:nth-child(even) {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .veille-cloud .heading {
+        font-size: 2rem;
+    }
+
+    .veille-cloud .veille-item h3 {
+        font-size: 1.8rem;
+    }
+
+    .veille-cloud .veille-item p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .veille-cloud .veille-item {
+        padding: 15px;
+    }
+
+    .veille-cloud .veille-item h3 {
+        font-size: 1.6rem;
+    }
+
+    .veille-cloud .veille-item p {
+        font-size: 1.1rem;
+    }
+}
