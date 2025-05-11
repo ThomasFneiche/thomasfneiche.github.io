@@ -503,7 +503,7 @@ span {
 }
 
 /* Section spécifique à la veille technologique */
-.veille-cloud {
+.veille-quantique {
     margin: 40px auto;
     max-width: 1000px;
     padding: 20px;
@@ -512,14 +512,14 @@ span {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
-.veille-cloud .heading {
+.veille-quantique .heading {
     text-align: center;
     font-size: 2.4rem;
     color: var(--main-color);
     margin-bottom: 2rem;
 }
 
-.veille-cloud .veille-item {
+.veille-quantique .veille-item {
     background-color: var(--bg-color);
     padding: 20px;
     margin-bottom: 2rem;
@@ -528,68 +528,68 @@ span {
     color: var(--text-color);
 }
 
-.veille-cloud .veille-item h3 {
+.veille-quantique .veille-item h3 {
     font-size: 2rem;
     color: var(--main-color);
     margin-bottom: 1rem;
 }
 
-.veille-cloud .veille-item p {
+.veille-quantique .veille-item p {
     font-size: 1.4rem;
     color: var(--text-color);
     line-height: 1.6;
 }
 
-.veille-cloud .veille-item strong {
+.veille-quantique .veille-item strong {
     color: var(--main-color);
 }
 
-.veille-cloud .veille-item .emoji {
+.veille-quantique .veille-item .emoji {
     font-size: 2rem;
     margin-right: 10px;
 }
 
 /* Pour les icônes dans les titres (emoji) */
-.veille-cloud .veille-item h3:before {
+.veille-quantique .veille-item h3:before {
     content: attr(data-icon);
     margin-right: 10px;
 }
 
 /* Mettre en valeur les sections spécifiques */
-.veille-cloud .veille-item:nth-child(odd) {
+.veille-quantique .veille-item:nth-child(odd) {
     background-color: var(--snd-bg-color);
     color: var(--text-color);
 }
 
-.veille-cloud .veille-item:nth-child(even) {
+.veille-quantique .veille-item:nth-child(even) {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
 @media (max-width: 768px) {
-    .veille-cloud .heading {
+    .veille-quantique .heading {
         font-size: 2rem;
     }
 
-    .veille-cloud .veille-item h3 {
+    .veille-quantique .veille-item h3 {
         font-size: 1.8rem;
     }
 
-    .veille-cloud .veille-item p {
+    .veille-quantique .veille-item p {
         font-size: 1.2rem;
     }
 }
 
 @media (max-width: 450px) {
-    .veille-cloud .veille-item {
+    .veille-quantique .veille-item {
         padding: 15px;
     }
 
-    .veille-cloud .veille-item h3 {
+    .veille-quantique .veille-item h3 {
         font-size: 1.6rem;
     }
 
-    .veille-cloud .veille-item p {
+    .veille-quantique .veille-item p {
         font-size: 1.1rem;
     }
 }
@@ -621,7 +621,7 @@ span {
     box-shadow: none;
 }
 
-.E5 {
+.E4 {
     margin: 40px auto;
     max-width: 1000px;
     padding: 4rem 9%;
@@ -631,38 +631,38 @@ span {
 
 }
 
-.E5 .heading {
+.E4 .heading {
     text-align: center;
     font-size: 2.4rem;
     color: var(--main-color);
     margin-bottom: 2rem;
 }
 
-.E5-content {
+.E4-content {
     color: var(--text-color);  /* Assure que le texte soit en couleur claire */
     line-height: 1.6;
 }
 
-.E5-content h3 {
+.E4-content h3 {
     font-size: 2rem;
     color: var(--main-color);
     margin-bottom: 1rem;
 }
 
-.E5-content h4 {
+.E4-content h4 {
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: var(--main-color);
 }
 
-.E5-content p {
+.E4-content p {
     font-size: 1.6rem;
     margin: 1rem 0;
     color: var(--text-color);
 }
 
-.E5-content .btn {
+.E4-content .btn {
     display: inline-block;   /* Le bouton reste en ligne, mais peut être centré */
     padding: 0.8rem 2rem;    /* Taille réduite du bouton */
     background: var(--main-color);
@@ -680,7 +680,7 @@ span {
     margin-right: auto;       /* Ajout de l'auto pour centrer */
 }
 
-.E5-content .btn:hover {
+.E4-content .btn:hover {
     background-color: var(--text-color);
     color: var(--main-color);
     box-shadow: none;
@@ -688,23 +688,23 @@ span {
 
 /* Media Query pour les petits écrans */
 @media (max-width: 768px) {
-    .E5 {
+    .E4 {
         padding: 3rem 5%;
     }
 
-    .E5 .heading {
+    .E4 .heading {
         font-size: 2rem;
     }
 
-    .E5-content h3 {
+    .E4-content h3 {
         font-size: 1.8rem;
     }
 
-    .E5-content h4 {
+    .E4-content h4 {
         font-size: 1.6rem;
     }
 
-    .E5-content p {
+    .E4-content p {
         font-size: 1.4rem;
     }
 }
