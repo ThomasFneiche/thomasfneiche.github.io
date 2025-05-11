@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compétences - Thomas FNEICHE</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+    :root {
+      --bg-color: #191f36;
+      --snd-bg-color: #262840;
+      --text-color: #fff;
+      --main-color: #59B2F4;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      border: none;
+      outline: none;
+      scroll-behavior: smooth;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    body {
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 5rem 9% 2rem;
+    }
+
+    .heading {
+      text-align: left;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    span {
+      color: var(--main-color);
+    }
+
+    .skills {
+      margin-top: 2rem;
+    }
+
+    .category-title {
+      font-size: 2.2rem;
+      margin: 3rem 0 1.5rem;
+      color: var(--main-color);
+    }
+
+    .skill {
+      margin-bottom: 2rem;
+    }
+
+    .skill span {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--text-color);
+    }
+
+    .progress {
+      background-color: var(--snd-bg-color);
+      border-radius: 5rem;
+      overflow: hidden;
+      height: 1.8rem;
+      margin-top: 0.5rem;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background-color: var(--main-color);
+      width: 0;
+      animation: loadSkill 2s ease forwards;
+      border-radius: 5rem;
+    }
+
+    @keyframes loadSkill {
+      from {
+        width: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="about" id="competences">
+  <div class="about-content">
+    <h2 class="heading">Mes <span>Compétences</span></h2>
+
+    <div class="skills">
+
+      <h3 class="category-title">Développement</h3>
+
+      <div class="skill">
+        <span>HTML/CSS</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Javascript</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Node.js</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>PHP</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 65%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>C</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>C++</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>C#</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 55%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Python</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Arduino</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 65%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Raspberry PI</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Swift</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+      </div>
+
+      <h3 class="category-title">Réseaux</h3>
+
+      <div class="skill">
+        <span>SQL</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>PhpMyAdmin</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>MariaDB, MySQL</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>GLPI</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Shell, Powershell, Bash</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Putty</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 65%;"></div>
+        </div>
+      </div>
+
+      <h3 class="category-title">Systèmes d'exploitation</h3>
+
+      <div class="skill">
+        <span>Windows 7/8/10/11</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 95%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>MacOS</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Linux (Ubuntu, Xubuntu, Redhat)</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>IOS</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <h3 class="category-title">Traitement de texte</h3>
+
+      <div class="skill">
+        <span>Pack Office</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
